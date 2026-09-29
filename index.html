@@ -1,10 +1,3 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex, nofollow">
-<meta name="description" content="Guía de SEO para la sección México de Bloomberg Línea: por qué cae el tráfico, qué funciona en Search, Discover y News, qué publicar y qué dejar, y el impacto de las propuestas de SEO. Se actualiza cada lunes.">
 <title>México, últimos 15 días</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -565,9 +558,27 @@
   .title-cell { display: block; }
   @media (max-width: 640px) { .nb-row { grid-template-columns: minmax(0, 1fr) auto; } .nb-lab { grid-column: 1 / -1; } }
 
+/* --- sección «qué mete un tema en Discover» --- */
+.t-ever tr.win{background:rgba(54,191,88,.09)}
+.t-ever tr.win th[scope=row] .title-cell{font-weight:600}
+.t-ever tr.win td b{color:#1c7a36}
+#s-disc ~ .cap, section[aria-labelledby=s-disc] .cap{margin:22px 0 0;font-size:13.5px;color:#4a4a4a}
+ol.ej{list-style:none;counter-reset:e;margin:10px 0 0;padding:0;display:grid;gap:7px}
+ol.ej li{counter-increment:e;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:baseline;
+  font-size:14.5px;line-height:1.45;padding:9px 12px;background:#fafafa;border-left:2px solid #36BF58}
+ol.ej li b{font-variant-numeric:tabular-nums;font-weight:700;min-width:3.2em;text-align:right;color:#191919}
+ol.ej li small{color:#6b6b6b;font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+ul.largos{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.largos li{flex:1 1 118px;padding:10px 12px;background:#fafafa;border-top:2px solid #e3e3e3;
+  display:flex;flex-direction:column;gap:1px}
+ul.largos li:last-child{border-top-color:#36BF58}
+ul.largos li b{font-size:12.5px;color:#6b6b6b;font-weight:600;letter-spacing:.02em}
+ul.largos li span{font-size:21px;font-weight:700;color:#191919;font-variant-numeric:tabular-nums;line-height:1.1}
+ul.largos li small{font-size:11.5px;color:#8a8a8a}
+@media (max-width:560px){ol.ej li{grid-template-columns:auto 1fr;}ol.ej li small{grid-column:2}}
+
 </style>
-</head>
-<body>
+
 <div class="bl-bar">
   <div class="bl-bar-in">
     <div class="bl-top">
@@ -640,7 +651,30 @@
   </section>
   </div>
 
-  <p class="parte"><span>2</span>Qué hacer en los próximos 15 días</p>
+  <p class="parte"><span>2</span>Qué mete un tema en Discover</p>
+  <div class="imp">
+  <section aria-labelledby="s-disc">
+    <div class="sec-head">
+      <p class="eyebrow">205 notas, dos meses medidos</p>
+      <h2 id="s-disc">Diez notas trajeron casi tanto Discover como las otras ciento once</h2>
+      <p>En Discover la mediana no dice nada: casi toda nota queda en cero, gane quien gane. Lo que separa a las
+      que entran es una sola cosa, y se ve en el titular. <b>Nombrar a la empresa no alcanza:</b> 74 notas
+      nombran a Pemex, Televisa, Banxico o Sheinbaum sin que pase nada en el verbo, y solo 4 pasaron los 300
+      clics. Cuando el verbo carga un choque —algo pierde valor o alguien queda enfrentado a alguien con
+      nombre— y el titular mide entre 79 y 100 caracteres, entraron <b>7 de 10</b>.</p>
+      <p>Son el 5% de lo que publicó la sección entre el 27 de julio de 2026 y el 26 de septiembre de 2026,
+      y trajeron el 37% del Discover:
+      622 clics por nota contra 63 de las que no cumplen ninguna de las dos
+      condiciones. La regla no reemplaza al volumen, lo concentra.</p>
+      <p>Las tres que cumplían la forma y no entraron dicen lo mismo por el lado contrario: en una el titular
+      es una pregunta, en otra el conflicto se resuelve a favor —«Delta y Aeroméxico <i>ganan</i> batalla
+      legal»— y en la tercera alguien niega una promesa. <b>Hace falta un perdedor, no solo un enfrentamiento.</b></p>
+    </div>
+    <div class="table-wrap"><table class="t-ever"><thead><tr><th scope="col">Cómo está armado el titular</th><th scope="col">Notas</th><th scope="col">Pasan 300 clics</th><th scope="col">Del Discover</th><th scope="col">Clics por nota</th></tr></thead><tbody><tr class="win"><th scope="row"><span class="title-cell">Nombra a la empresa y el verbo pone un choque, en 79-100 caracteres</span></th><td>10</td><td><b>7 de 10</b></td><td>37%</td><td>622</td></tr><tr><th scope="row"><span class="title-cell">El mismo choque, pero el titular se sale de ese largo</span></th><td>3</td><td><b>0 de 3</b></td><td>0%</td><td>0</td></tr><tr><th scope="row"><span class="title-cell">Nombra a la empresa y no pasa nada en el verbo</span></th><td>74</td><td><b>4 de 74</b></td><td>22%</td><td>51</td></tr><tr><th scope="row"><span class="title-cell">Ni empresa nombrada ni choque</span></th><td>111</td><td><b>5 de 111</b></td><td>41%</td><td>63</td></tr></tbody></table></div><p class="cap">Las siete que entraron, con el largo de cada titular:</p><ol class="ej"><li><b>1.401</b> Ricardo Salinas Pliego abre nuevo frente en lucha contra los tenedores de bonos de TV Azteca <small>92c</small></li><li><b>1.107</b> Acciones de Televisa se desploman ante próxima salida del principal índice de la Bolsa Mexicana <small>95c</small></li><li><b>935</b> Distribuidor de DJI denuncia robo masivo al salir de aeropuerto controlado por el Ejército de M… <small>100c</small></li><li><b>888</b> México alista recorte al presupuesto de Pemex y CFE, pero las compensará con transferencias <small>91c</small></li><li><b>868</b> Bonos de México cotizan como basura tras rescate a Pemex de US$130.000 millones <small>79c</small></li><li><b>540</b> Peso mexicano se deprecia al nivel más bajo desde julio en víspera de decisión de Banxico <small>89c</small></li><li><b>476</b> Peso mexicano se debilita esta semana hasta su peor nivel en cinco meses tras decisión de Banxi… <small>97c</small></li></ol><p class="cap">Y el largo, sobre las 205 notas completas: proporción que pasa de 300 clics.</p><ul class="largos"><li><b>0-69c</b> <span>4%</span><small>23 notas</small></li><li><b>70-79c</b> <span>4%</span><small>52 notas</small></li><li><b>80-89c</b> <span>7%</span><small>60 notas</small></li><li><b>90-99c</b> <span>12%</span><small>56 notas</small></li></ul>
+  </section>
+  </div>
+
+  <p class="parte"><span>3</span>Qué hacer en los próximos 15 días</p>
   <div class="imp">
   <section aria-labelledby="s-hacer">
     <div class="sec-head">
@@ -663,7 +697,7 @@
       <p>Notas ya publicadas, de temas que vuelven, con demanda de sobra y por debajo de la mediana de la sección. La
       última columna dice cuántos clics deja cada una sobre la mesa.</p>
     </div>
-    <div class="table-wrap"><table class="t-ever"><thead><tr><th scope="col">Nota</th><th scope="col">Impresiones</th><th scope="col">CTR</th><th scope="col">Posición</th><th scope="col">Clics que faltan</th></tr></thead><tbody><tr><th scope="row"><span class="title-cell">¿El 16 de septiembre de 2026 es día festivo oficial en México o se trabaja?</span><small>Festivos, puentes y Buen Fin</small></th><td>138.898</td><td>0,30%</td><td>6,3</td><td><b>+513</b></td></tr><tr><th scope="row"><span class="title-cell">iPhone Duo en México: precio desde MXN$47.999, preventa y fecha de lanzamiento</span><small>Precios y salario mínimo</small></th><td>111.092</td><td>0,21%</td><td>7,3</td><td><b>+510</b></td></tr><tr><th scope="row"><span class="title-cell">pasaporte biometrico mexicano precios requisitos y todo lo que debe saber/</span><small>Precios y salario mínimo</small></th><td>52.206</td><td>0,01%</td><td>12,0</td><td><b>+345</b></td></tr><tr><th scope="row"><span class="title-cell">¿Cuánto cuesta el pasaporte mexicano en 2026? Estas son las tarifas</span><small>Pasaporte</small></th><td>61.103</td><td>0,12%</td><td>8,5</td><td><b>+338</b></td></tr><tr><th scope="row"><span class="title-cell">El “megapuente” de septiembre en México: qué días son festivos, quiénes descansan…</span><small>Festivos, puentes y Buen Fin</small></th><td>65.409</td><td>0,32%</td><td>7,0</td><td><b>+230</b></td></tr><tr><th scope="row"><span class="title-cell">Buen Fin 2026 en México: cuándo empieza, cuántos días dura y qué día será festivo</span><small>Festivos, puentes y Buen Fin</small></th><td>31.277</td><td>0,16%</td><td>5,5</td><td><b>+161</b></td></tr><tr><th scope="row"><span class="title-cell">Próximo puente en México coincidirá con el Buen Fin: estos son los festivos que q…</span><small>Festivos, puentes y Buen Fin</small></th><td>28.331</td><td>0,14%</td><td>5,6</td><td><b>+151</b></td></tr><tr><th scope="row"><span class="title-cell">el 12 de octubre es dia festivo oficial y que se celebra en mexico/</span><small>Festivos, puentes y Buen Fin</small></th><td>31.418</td><td>0,25%</td><td>6,1</td><td><b>+133</b></td></tr></tbody></table></div>
+    <div class="table-wrap"><table class="t-ever"><thead><tr><th scope="col">Nota</th><th scope="col">Impresiones</th><th scope="col">CTR</th><th scope="col">Posición</th><th scope="col">Clics que faltan</th></tr></thead><tbody><tr><th scope="row"><span class="title-cell">iPhone Duo en México: precio desde MXN$47.999, preventa y fecha de lanzamiento</span><small>Precios y salario mínimo</small></th><td>111.092</td><td>0,21%</td><td>7,3</td><td><b>+510</b></td></tr><tr><th scope="row"><span class="title-cell">pasaporte biometrico mexicano precios requisitos y todo lo que debe saber/</span><small>Precios y salario mínimo</small></th><td>52.206</td><td>0,01%</td><td>12,0</td><td><b>+345</b></td></tr><tr><th scope="row"><span class="title-cell">¿Cuánto cuesta el pasaporte mexicano en 2026? Estas son las tarifas</span><small>Pasaporte</small></th><td>61.103</td><td>0,12%</td><td>8,5</td><td><b>+338</b></td></tr><tr><th scope="row"><span class="title-cell">Buen Fin 2026 en México: cuándo empieza, cuántos días dura y qué día será festivo</span><small>Festivos, puentes y Buen Fin</small></th><td>31.277</td><td>0,16%</td><td>5,5</td><td><b>+161</b></td></tr><tr><th scope="row"><span class="title-cell">Próximo puente en México coincidirá con el Buen Fin: estos son los festivos que q…</span><small>Festivos, puentes y Buen Fin</small></th><td>28.331</td><td>0,14%</td><td>5,6</td><td><b>+151</b></td></tr><tr><th scope="row"><span class="title-cell">el 12 de octubre es dia festivo oficial y que se celebra en mexico/</span><small>Festivos, puentes y Buen Fin</small></th><td>31.418</td><td>0,25%</td><td>6,1</td><td><b>+133</b></td></tr><tr><th scope="row"><span class="title-cell">cuanto tardan en entregar el ine despues de la cita tiempos promedio 2024/</span><small>Credencial del INE</small></th><td>15.840</td><td>0,09%</td><td>8,3</td><td><b>+92</b></td></tr><tr><th scope="row"><span class="title-cell">¿A qué bancos se puede depositar a través de OXXO en 2026? Horarios, límites y co…</span><small>Bancos: horarios y OXXO</small></th><td>15.717</td><td>0,17%</td><td>7,5</td><td><b>+79</b></td></tr></tbody></table></div>
     <div class="compare">
       <div>
         <h3>Lo que frena el aporte de SEO</h3>
@@ -684,5 +718,3 @@
     <p>Documento interno de SEO · Bloomberg Línea</p>
   </footer>
 </div>
-</body>
-</html>
